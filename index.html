@@ -126,6 +126,55 @@
             border-radius: 4px;
             margin: 15px 0;
         }
+        
+        blockquote {
+            margin: 30px 0;
+            padding: 25px 40px 25px 50px;
+            background: linear-gradient(to right, #f5f1ed 0%, #faf8f5 100%);
+            border-left: 5px solid #8b4513;
+            position: relative;
+            font-style: italic;
+            color: #4a4a4a;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        blockquote::before {
+            content: '"';
+            font-size: 60px;
+            color: #d4c5b9;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            font-family: Georgia, serif;
+            line-height: 1;
+        }
+        
+        blockquote p {
+            margin: 0 0 15px 0;
+            line-height: 1.8;
+        }
+        
+        blockquote p:last-of-type {
+            margin-bottom: 15px;
+        }
+        
+        blockquote footer {
+            font-style: normal;
+            font-size: 0.9em;
+            color: #8b4513;
+            margin-top: 15px;
+            text-align: right;
+            font-weight: 500;
+        }
+        
+        blockquote footer::before {
+            content: '— ';
+        }
+        
+        blockquote cite {
+            font-style: italic;
+            font-weight: normal;
+        }
     </style>
 </head>
 <body>
@@ -180,7 +229,7 @@
         <li>Chastity</li>
         <li>Humility</li>
     </ol>
-    <p>Participants dicuss thoughts on Franklin's system of self-improvement and 13 virtues.</p>
+    <p>Participants discuss thoughts on Franklin's system for self-improvement and 13 virtues.</p>
     <hr>
     
     <h2>4. Application</h2>
@@ -223,28 +272,71 @@
     <h2>Benjamin Franklin's System of Self-Improvement (The 13 Virtues)</h2>
     
     <p>Benjamin Franklin did not treat virtue as a personality trait or a moral identity. He treated it as a <strong>skill system</strong>. Something trainable through structure, tracking, and iteration.</p>
+
+    <blockquote>
+      <p>
+        Aim at perfection, expect failure, measure improvement — and you will be better for having tried.
+      </p>
+      <footer>— Paraphrase / modern summary of Franklin’s verdict</footer>
+    </blockquote>
     
     <p>The goal of this discussion is:</p>
     <ul>
-        <li>to understand <strong>what problem Franklin was solving</strong></li>
-        <li>to examine <strong>how his system worked</strong></li>
-        <li>to evaluate <strong>where it succeeds or fails</strong></li>
-        <li>and to consider <strong>how similar systems could be applied today</strong></li>
+        <li>to understand what problem Franklin was solving</li>
+        <li>to examine how his system worked</li>
+        <li>to evaluate where it succeeds or fails</li>
+        <li>and to consider how similar systems could be applied today</li>
     </ul>
     
     <hr>
     
     <h2>Franklin's Method</h2>
+    <blockquote>
+      <p>
+        I conceived the bold and arduous project of arriving at moral perfection. I wished to live without
+        committing any fault at any time; I would conquer all that either natural inclination, custom, or
+        company might lead me into. As I knew, or thought I knew, what was right and wrong, I did not see
+        why I might not always do the one and avoid the other. But I soon found I had undertaken a task
+        of more difficulty than I had imagined. While my care was employ’d in guarding against one fault,
+        I was often surprised by another; habit took the advantage of inattention; inclination was
+        sometimes too strong for reason. I concluded, at length, that the mere speculative conviction
+        that it was our interest to be completely virtuous, was not sufficient to prevent our slipping;
+        and that the contrary habits must be broken, and good ones acquired and established, before we
+        can have any dependence on a steady, uniform rectitude of conduct. For this purpose I therefore
+        contrived the following method…
+      </p>
+      <footer>— Benjamin Franklin, <cite>The Autobiography of Benjamin Franklin</cite></footer>
+    </blockquote>
+
     
-    <p>Franklin selected 13 virtues he believed captured moral and practical excellence. Rather than attempting to improve all at once, he focused on <strong>one virtue per week</strong>, cycling through all 13 over 13 weeks.</p>
-    
+    <p>Franklin's self-improvement system centered on mastering 13 virtues by focusing on one virtue per week in a 13-week cycle, tracking progress on a chart to build better habits and character. He aimed to perfect himself by giving concentrated effort to one trait at a time, repeating the cycle to achieve holistic personal growth. </p>
+
+    <blockquote>
+      <p>
+        My intention being to acquire the habitude of all these virtues, I judged it would be well not to
+        distract my attention by attempting the whole at once, but to fix it on one of them at a time; and,
+        when I should be master of that, then to proceed to another, and so on, till I should have gone
+        through the thirteen; and, as the previous acquisition of some might facilitate the acquisition of
+        certain others, I arranged them with that view, as they stand above.
+      </p>
+      <p>
+        Temperance first, as it tends to procure that coolness and clearness of head which is so necessary
+        where constant vigilance was to be kept up, and a guard maintained against the unremitting
+        attraction of ancient habits, and the force of perpetual temptations. This being acquired and
+        established, Silence would be more easy; and my desire of gaining knowledge and improving my
+        character would then be better gratified by my keeping silence, and speaking only when occasion
+        offered, and then speaking with greater advantage.
+      </p>
+      <footer>— Benjamin Franklin, <cite>The Autobiography of Benjamin Franklin</cite></footer>
+    </blockquote>
+
     <div class="key-feature">
         <p>Key features of his system:</p>
         <ul>
-            <li><strong>Single-variable focus</strong> (one virtue at a time)</li>
-            <li><strong>Daily tracking</strong> (marking failures, not successes)</li>
-            <li><strong>Iteration, not perfection</strong></li>
-            <li><strong>Lifelong repetition</strong>, not short-term challenge</li>
+            <li>Single-variable focus (one virtue at a time)</li>
+            <li>Daily tracking (marking failures, not successes)</li>
+            <li>Iteration, not perfection</li>
+            <li>Lifelong repetition, not short-term challenge</li>
         </ul>
     </div>
     
@@ -318,7 +410,14 @@
         <h3>13. Humility</h3>
         <p><em>Imitate Jesus and Socrates.</em></p>
     </div>
-    
+
+    <blockquote>
+      <p>
+        I found the advantage of this method was that it kept my attention fixed on my conduct, and made
+        me more attentive to my faults than I otherwise should have been.
+      </p>
+      <footer>— Benjamin Franklin, <cite>The Autobiography of Benjamin Franklin</cite></footer>
+    </blockquote>
     <hr>
     
     <h2>Questions for Thought</h2>
@@ -332,5 +431,13 @@
         <li>How would you track progress without obsession?</li>
         <li>What would make this sustainable for months or years?</li>
     </ul>
+    <blockquote>
+      <p>
+        On the whole, tho’ I never arrived at the perfection I had been so ambitious of obtaining, but
+        fell far short of it, yet I was, by the endeavour, a better and a happier man than I otherwise
+        should have been if I had not attempted it.
+      </p>
+      <footer>— Benjamin Franklin, <cite>The Autobiography of Benjamin Franklin</cite></footer>
+    </blockquote>
 </body>
 </html>
